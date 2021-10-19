@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!-- remote servers -->
+ <remote name="github" fetch="https://github.com/Parrot-Developers"/>
+ <default remote="github" revision="master" sync-j="4"/>
+
+ <!-- build system -->
+ <project name="Alchemy" path="build/alchemy"/>
+ <project name="dragon_build" path="build/dragon_build">
+    <linkfile src="root-build.sh" dest="build.sh"/>
+ </project>
+
+ <!-- groundsdk-tools product -->
+ <project name="groundsdk-tools-product" path="products/groundsdk"/>
+
+ <!-- packages (alphabetically sorted by name) -->
+ <project name="eigen" path="packages/eigen" revision="eigen-3.3-branch"/>
+ <project name="ffmpeg" path="packages/ffmpeg" revision="ffmpeg-4.3-branch"/>
+ <project name="json-c" path="packages/json" revision="json-0.15-branch"/>
+ <project name="libyuv" path="packages/libyuv"/>
+ <project name="nasm" path="packages/nasm"/>
+ <project name="protobuf" path="packages/protobuf" revision="protobuf-3-branch"/>
+ <project name="protobuf-c" path="packages/protobuf-c"/>
+ <project name="libfutils" path="packages/libfutils"/>
+ <project name="libh264" path="packages/libh264"/>
+ <project name="libh265" path="packages/libh265"/>
+ <project name="libmedia-buffers" path="packages/libmedia-buffers"/>
+ <project name="libmp4" path="packages/libmp4"/>
+ <project name="librtp" path="packages/librtp"/>
+ <project name="librtmp" path="packages/librtmp"/>
+ <project name="librtsp" path="packages/librtsp"/>
+ <project name="libsdp" path="packages/libsdp"/>
+ <project name="libtransport-packet" path="packages/libtransport-packet"/>
+ <project name="libtransport-socket" path="packages/libtransport-socket"/>
+ <project name="libvideo-decode" path="packages/libvideo-decode"/>
+ <project name="libvideo-defs" path="packages/libvideo-defs"/>
+ <project name="libvideo-encode" path="packages/libvideo-encode"/>
+ <project name="libvideo-metadata" path="packages/libvideo-metadata"/>
+ <project name="libvideo-scale" path="packages/libvideo-scale"/>
+ <project name="libvideo-streaming" path="packages/libvideo-streaming"/>
+ <project name="pdraw" path="packages/pdraw"/>
+ <project name="libpomp" path="packages/libpomp"/>
+ <project name="ulog" path="packages/ulog"/>
+
+</manifest>
