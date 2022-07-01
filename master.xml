@@ -25,6 +25,7 @@
  <project name="libh264" path="packages/libh264"/>
  <project name="libh265" path="packages/libh265"/>
  <project name="libmedia-buffers" path="packages/libmedia-buffers"/>
+ <project name="libmetadata-thermal" path="packages/libmetadata-thermal"/>
  <project name="libmp4" path="packages/libmp4"/>
  <project name="librtp" path="packages/librtp"/>
  <project name="librtmp" path="packages/librtmp"/>
