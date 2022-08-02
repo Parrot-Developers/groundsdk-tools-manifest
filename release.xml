@@ -5,12 +5,14 @@
   <default remote="github" revision="master" sync-j="4"/>
   
   <project name="Alchemy" path="build/alchemy" revision="b849fe1c344fee9396b0f35de89999bec8ac100d" dest-branch="master"/>
+  <project name="arsdk-ng" path="packages/arsdk-ng" revision="9fc0572d6d135c41774779a6f5198b976c52906e" dest-branch="master"/>
+  <project name="arsdk-xml" path="packages/arsdk-xml" revision="a94b6a3a63eb7e731a669ea09f8f780d5074e1fd" dest-branch="master"/>
   <project name="dragon_build" path="build/dragon_build" revision="55d7e2559debf0d70c4cb3eb49607260bd7bad94" dest-branch="master">
     <linkfile src="root-build.sh" dest="build.sh"/>
   </project>
   <project name="eigen" path="packages/eigen" revision="16043168f20da724988473b8b9cbec2b3be85dbf" dest-branch="eigen-3.3-branch"/>
   <project name="ffmpeg" path="packages/ffmpeg" revision="2acc312e9189d581d98c508b16b2d634cc8c2672" dest-branch="ffmpeg-4.3-branch"/>
-  <project name="groundsdk-tools-product" path="products/groundsdk" revision="aeaff9f23cbcf7be09fd758d09f849435e14c974" dest-branch="master"/>
+  <project name="groundsdk-tools-product" path="products/groundsdk" revision="573c18eaaa54dc0525637d67d52691ae50dfb1be" dest-branch="master"/>
   <project name="json-c" path="packages/json" revision="f103f27c67fff568096ec8d19ca2016191d15201" dest-branch="json-0.15-branch"/>
   <project name="libfutils" path="packages/libfutils" revision="884297e0576be62fcbb3b45dacf23973a4a70023" dest-branch="master"/>
   <project name="libh264" path="packages/libh264" revision="1166fa01c25d292faf4e4a02b4ee6204d6635eb7" dest-branch="master"/>
@@ -18,22 +20,23 @@
   <project name="libmedia-buffers" path="packages/libmedia-buffers" revision="33b18f1d33f5df204ce3cae941d524d399e34dcb" dest-branch="master"/>
   <project name="libmetadata-thermal" path="packages/libmetadata-thermal" revision="5078e97d85670bdf058389fd1d8974f44c4e4c57" dest-branch="master"/>
   <project name="libmp4" path="packages/libmp4" revision="a6fb7aa995b39a6e6d258ff7161837f154914ed5" dest-branch="master"/>
+  <project name="libmux" path="packages/libmux" revision="8cb2a76a1abbdd88d09d4063f5ebd78a49060e63" dest-branch="master"/>
   <project name="libpomp" path="packages/libpomp" revision="702a5c37770ad5cebab097acddceb722782a7a5e" dest-branch="master"/>
   <project name="librtmp" path="packages/librtmp" revision="2bde3e84d1046d7837ecf03bb94fb526cfa42944" dest-branch="master"/>
   <project name="librtp" path="packages/librtp" revision="949ea9b70f0a219013c5f6fb8325c6b0e95765a7" dest-branch="master"/>
   <project name="librtsp" path="packages/librtsp" revision="3c5fed6ea9e0f7edc4ca3adbda8489f7f1b3a463" dest-branch="master"/>
   <project name="libsdp" path="packages/libsdp" revision="1df8ba4a97cfac6f899f08d1286308b3abc6d417" dest-branch="master"/>
   <project name="libtransport-packet" path="packages/libtransport-packet" revision="88908b730762f31bee518fbf62f9e2b244b49b81" dest-branch="master"/>
-  <project name="libtransport-socket" path="packages/libtransport-socket" revision="e1ab52324d7f6611ff9cb99861f2f200e617ace8" dest-branch="master"/>
+  <project name="libtransport-socket" path="packages/libtransport-socket" revision="5fe83e976a3bae34e5acc3ffbc41d68084988041" dest-branch="master"/>
   <project name="libvideo-decode" path="packages/libvideo-decode" revision="9c7db30711d59faa552a34516522a0f85867adb6" dest-branch="master"/>
   <project name="libvideo-defs" path="packages/libvideo-defs" revision="a593c7a3f5c08e4a64f97fc630ab9353b9edbc4f" dest-branch="master"/>
-  <project name="libvideo-encode" path="packages/libvideo-encode" revision="6f02d701ec04907a43f0a304ce2beacc581eba69" dest-branch="master"/>
+  <project name="libvideo-encode" path="packages/libvideo-encode" revision="fb7aa4137f463bd64fdcb99100db6f5925d7c6e7" dest-branch="master"/>
   <project name="libvideo-metadata" path="packages/libvideo-metadata" revision="f9a267974cdc5d3e7d118ead0dff8d9180c1425e" dest-branch="master"/>
   <project name="libvideo-scale" path="packages/libvideo-scale" revision="dc46e59308bf0088b26a5ca17822d86071998263" dest-branch="master"/>
   <project name="libvideo-streaming" path="packages/libvideo-streaming" revision="136036178d365a4a9ec5969f4df168dc64fd9510" dest-branch="master"/>
   <project name="libyuv" path="packages/libyuv" revision="20cdec6888e6153c90936f44daccb3d4501863ef" dest-branch="master"/>
   <project name="nasm" path="packages/nasm" revision="50a46206970715a0fe0b60c6587c8b1f77897fa4" dest-branch="master"/>
-  <project name="pdraw" path="packages/pdraw" revision="df1d3e2e14790155e5573e13b4c3c0e34a933ef0" dest-branch="master"/>
+  <project name="pdraw" path="packages/pdraw" revision="8ddd818ab4bd833ebc27071e7984059d2e8cd713" dest-branch="master"/>
   <project name="protobuf" path="packages/protobuf" revision="d23838533744a3c4c396b21de22819ed68fc9019" dest-branch="protobuf-3-branch"/>
   <project name="protobuf-c" path="packages/protobuf-c" revision="1212e48616f0355bd9cca224919ad65b02364048" dest-branch="master"/>
   <project name="ulog" path="packages/ulog" revision="dce4648fb4f94a1cefb6f4edb2431497c51ab40e" dest-branch="master"/>
