@@ -17,6 +17,7 @@
  <project name="arsdk-ng" path="packages/arsdk-ng"/>
  <project name="arsdk-xml" path="packages/arsdk-xml"/>
  <project name="eigen" path="packages/eigen" revision="eigen-3.3-branch"/>
+ <project name="felindra" path="packages/felindra"/>
  <project name="ffmpeg" path="packages/ffmpeg" revision="ffmpeg-4.3-branch"/>
  <project name="json-c" path="packages/json" revision="json-0.15-branch"/>
  <project name="libfutils" path="packages/libfutils"/>
@@ -44,6 +45,7 @@
  <project name="pdraw" path="packages/pdraw"/>
  <project name="protobuf-c" path="packages/protobuf-c"/>
  <project name="protobuf" path="packages/protobuf" revision="protobuf-3-branch"/>
+ <project name="python-native" path="packages/python-native"/>
  <project name="ulog" path="packages/ulog"/>
 
 </manifest>
