@@ -17,12 +17,19 @@
  <project name="arsdk-ng" path="packages/arsdk-ng"/>
  <project name="arsdk-xml" path="packages/arsdk-xml"/>
  <project name="eigen" path="packages/eigen" revision="eigen-3.3-branch"/>
+ <project name="fdk-aac" path="packages/fdk-aac" revision="fdk-aac-parrot-branch"/>
  <project name="felindra" path="packages/felindra"/>
- <project name="ffmpeg" path="packages/ffmpeg" revision="ffmpeg-4.3-branch"/>
- <project name="json-c" path="packages/json" revision="json-0.15-branch"/>
+ <project name="ffmpeg" path="packages/ffmpeg" revision="ffmpeg-6.0-parrot-branch"/>
+ <project name="json-c" path="packages/json" revision="json-0.18-parrot-branch"/>
+ <project name="libaac" path="packages/libaac"/>
+ <project name="libaudio-decode" path="packages/libaudio-decode"/>
+ <project name="libaudio-defs" path="packages/libaudio-defs"/>
+ <project name="libaudio-encode" path="packages/libaudio-encode"/>
+ <project name="libaudio-raw" path="packages/libaudio-raw"/>
  <project name="libfutils" path="packages/libfutils"/>
  <project name="libh264" path="packages/libh264"/>
  <project name="libh265" path="packages/libh265"/>
+ <project name="libjpeg-parrot" path="packages/libjpeg-parrot"/>
  <project name="libmedia-buffers" path="packages/libmedia-buffers"/>
  <project name="libmetadata-thermal" path="packages/libmetadata-thermal"/>
  <project name="libmp4" path="packages/libmp4"/>
@@ -34,14 +41,18 @@
  <project name="libsdp" path="packages/libsdp"/>
  <project name="libtransport-packet" path="packages/libtransport-packet"/>
  <project name="libtransport-socket" path="packages/libtransport-socket"/>
+ <project name="libtransport-tls" path="packages/libtransport-tls"/>
  <project name="libvideo-decode" path="packages/libvideo-decode"/>
  <project name="libvideo-defs" path="packages/libvideo-defs"/>
  <project name="libvideo-encode" path="packages/libvideo-encode"/>
  <project name="libvideo-metadata" path="packages/libvideo-metadata"/>
+ <project name="libvideo-raw" path="packages/libvideo-raw"/>
  <project name="libvideo-scale" path="packages/libvideo-scale"/>
  <project name="libvideo-streaming" path="packages/libvideo-streaming"/>
  <project name="libyuv" path="packages/libyuv"/>
  <project name="nasm" path="packages/nasm"/>
+ <project name="nv-codec-headers" path="packages/nv-codec-headers" revision="nv-codec-headers-12.1-parrot-branch"/>
+ <project name="openssl" path="packages/openssl"/>
  <project name="pdraw" path="packages/pdraw"/>
  <project name="protobuf-c" path="packages/protobuf-c"/>
  <project name="protobuf" path="packages/protobuf" revision="protobuf-3-branch"/>

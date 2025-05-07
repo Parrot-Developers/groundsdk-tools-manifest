@@ -5,41 +5,52 @@
   <default remote="github" revision="master" sync-j="4"/>
   
   <project name="Alchemy" path="build/alchemy" revision="cca5a852839c9f32c3599da10f5999a31b8ffb48" dest-branch="master"/>
-  <project name="arsdk-ng" path="packages/arsdk-ng" revision="e30d41eb1c7871139a933a04c953aa284fe61308" dest-branch="master"/>
-  <project name="arsdk-xml" path="packages/arsdk-xml" revision="8008cd417dca6b19f695b14699ff9385f18e02a3" dest-branch="master"/>
+  <project name="arsdk-ng" path="packages/arsdk-ng" revision="409daec0e8fc3393c31a8d09505a47d056eaafe9" dest-branch="master"/>
+  <project name="arsdk-xml" path="packages/arsdk-xml" revision="57f1c24c05f251f1edd8c30995dbf9d4cc5fd5cf" dest-branch="master"/>
   <project name="dragon_build" path="build/dragon_build" revision="052d2b300aa0c2189f44141d17ad149387fa5b9a" dest-branch="master">
     <linkfile src="root-build.sh" dest="build.sh"/>
   </project>
   <project name="eigen" path="packages/eigen" revision="8f801ea9b1974cc895a25e6e1f92ca0e6ae488ca" dest-branch="eigen-3.3-branch"/>
-  <project name="felindra" path="packages/felindra" revision="915d428d83e962e198bff836021d628807b3ad9b" dest-branch="master"/>
-  <project name="ffmpeg" path="packages/ffmpeg" revision="22d831a48739a98fd70c438e751446b5bc48e48b" dest-branch="ffmpeg-4.3-branch"/>
-  <project name="groundsdk-tools-product" path="products/groundsdk" revision="09f0821959ddec9d9b81a8bb61368b806113a005" dest-branch="master"/>
-  <project name="json-c" path="packages/json" revision="d8e3938e33dbeca294f976ba24c8fe9a50d81c2b" dest-branch="json-0.15-branch"/>
-  <project name="libfutils" path="packages/libfutils" revision="884297e0576be62fcbb3b45dacf23973a4a70023" dest-branch="master"/>
-  <project name="libh264" path="packages/libh264" revision="0eeeec68b197323a71c6ad2e1e3f9b22e245a291" dest-branch="master"/>
-  <project name="libh265" path="packages/libh265" revision="abfe8a98fbee1cca958e7438f607856805967da1" dest-branch="master"/>
-  <project name="libmedia-buffers" path="packages/libmedia-buffers" revision="b2981209434f6bcf9b3899f1527bdd8ec14d0e4f" dest-branch="master"/>
-  <project name="libmetadata-thermal" path="packages/libmetadata-thermal" revision="5078e97d85670bdf058389fd1d8974f44c4e4c57" dest-branch="master"/>
-  <project name="libmp4" path="packages/libmp4" revision="2ffa62dffe3615ecfff7560be5df34af41fcde40" dest-branch="master"/>
-  <project name="libmux" path="packages/libmux" revision="5c909c3cdd7d396a58c520de016f61d88eec4ac0" dest-branch="master"/>
-  <project name="libpomp" path="packages/libpomp" revision="702a5c37770ad5cebab097acddceb722782a7a5e" dest-branch="master"/>
-  <project name="librtmp" path="packages/librtmp" revision="2bde3e84d1046d7837ecf03bb94fb526cfa42944" dest-branch="master"/>
-  <project name="librtp" path="packages/librtp" revision="b43e0aaa47a731dd0dc3d0c6172671ea084bf8fc" dest-branch="master"/>
-  <project name="librtsp" path="packages/librtsp" revision="813b3e697163e17c7201117278a7415e59736ac7" dest-branch="master"/>
-  <project name="libsdp" path="packages/libsdp" revision="1df8ba4a97cfac6f899f08d1286308b3abc6d417" dest-branch="master"/>
+  <project name="fdk-aac" path="packages/fdk-aac" revision="47374477f4df01e24bc257a050198bdb055a50f5" dest-branch="fdk-aac-parrot-branch"/>
+  <project name="felindra" path="packages/felindra" revision="ea40622b24ae1ff2e79db11bad14ceb225a48834" dest-branch="master"/>
+  <project name="ffmpeg" path="packages/ffmpeg" revision="004b4713bdb6722e96de5f40f22c152f0d4f1ad0" dest-branch="ffmpeg-6.0-parrot-branch"/>
+  <project name="groundsdk-tools-product" path="products/groundsdk" revision="9fd23627d916ac6683e27a08c990ef4951f2a111" dest-branch="master"/>
+  <project name="json-c" path="packages/json" revision="c3efd2284a0002d6f012ee030a6a0a25606d2f38" dest-branch="json-0.18-parrot-branch"/>
+  <project name="libaac" path="packages/libaac" revision="7f7efb653b64798eb4233048591d589f62044539" dest-branch="master"/>
+  <project name="libaudio-decode" path="packages/libaudio-decode" revision="1107218ca2eac46a0496b52c565159a31601bd6c" dest-branch="master"/>
+  <project name="libaudio-defs" path="packages/libaudio-defs" revision="6b90db4bbd09110f6cb02694519940c0c0096130" dest-branch="master"/>
+  <project name="libaudio-encode" path="packages/libaudio-encode" revision="e0d74dee8b930428cdd1f808dd292d00c4a975af" dest-branch="master"/>
+  <project name="libaudio-raw" path="packages/libaudio-raw" revision="048cf58496387736bcbb70dda9c6ec0582fdd311" dest-branch="master"/>
+  <project name="libfutils" path="packages/libfutils" revision="e8571e3b72e3da693013f72697898b3a36938328" dest-branch="master"/>
+  <project name="libh264" path="packages/libh264" revision="98800233306416089901728d2f07335ba06ace6a" dest-branch="master"/>
+  <project name="libh265" path="packages/libh265" revision="bc2b3b1c7f7a4bceb2beb8de9fc21c526c96c816" dest-branch="master"/>
+  <project name="libjpeg-parrot" path="packages/libjpeg-parrot" revision="347ff0b5b45bcdab48744a399cd21f05bbd59710" dest-branch="master"/>
+  <project name="libmedia-buffers" path="packages/libmedia-buffers" revision="eed6bce6f234a068db099775fd4fbd0eec4a292b" dest-branch="master"/>
+  <project name="libmetadata-thermal" path="packages/libmetadata-thermal" revision="34eba728c6dc62b3060470d4b6f0aac1502f4c33" dest-branch="master"/>
+  <project name="libmp4" path="packages/libmp4" revision="ada1714e433e953d2aab00f93e4f1540e1ef40b6" dest-branch="master"/>
+  <project name="libmux" path="packages/libmux" revision="b01f2311db26ee7a31e5053087de32ebfb9f3ca9" dest-branch="master"/>
+  <project name="libpomp" path="packages/libpomp" revision="3667bce5cc7e6c2f65dcc39a002db4cc3a9aabb3" dest-branch="master"/>
+  <project name="librtmp" path="packages/librtmp" revision="b736f58651c19eea686953f2af6470e5d4550689" dest-branch="master"/>
+  <project name="librtp" path="packages/librtp" revision="30e0b87a44391a2204e08d11fdb43b51c7563744" dest-branch="master"/>
+  <project name="librtsp" path="packages/librtsp" revision="56a7da8135f373ea4b5a74aefea15b5ba0f039c0" dest-branch="master"/>
+  <project name="libsdp" path="packages/libsdp" revision="7732ded76ebf25072273ddc85127e181277856c3" dest-branch="master"/>
   <project name="libtransport-packet" path="packages/libtransport-packet" revision="3836546130c7b9827b5499c8ccbdbb0618e7fee6" dest-branch="master"/>
-  <project name="libtransport-socket" path="packages/libtransport-socket" revision="93dc7ba49864ff98282edb3c809c11c5f73410a6" dest-branch="master"/>
-  <project name="libvideo-decode" path="packages/libvideo-decode" revision="e037ca2c969d24035aa060d3535aa81dc897f4d9" dest-branch="master"/>
-  <project name="libvideo-defs" path="packages/libvideo-defs" revision="fe65ee9533fc93f5a6bbc2b4269cbabbc406b535" dest-branch="master"/>
-  <project name="libvideo-encode" path="packages/libvideo-encode" revision="2f611eea9e0f739efb4b36fafb52a8c6b651ba3e" dest-branch="master"/>
-  <project name="libvideo-metadata" path="packages/libvideo-metadata" revision="48dfe1f65070588eaa333a6cc00a768081dd8704" dest-branch="master"/>
-  <project name="libvideo-scale" path="packages/libvideo-scale" revision="9c314608e9cd428df7444aac26d184762cfd320c" dest-branch="master"/>
-  <project name="libvideo-streaming" path="packages/libvideo-streaming" revision="bfd02a6c385dcd4645dfe8a7973f2e426e75199a" dest-branch="master"/>
-  <project name="libyuv" path="packages/libyuv" revision="a953bbf0092c13028621efd51312884f1ea80b68" dest-branch="master"/>
+  <project name="libtransport-socket" path="packages/libtransport-socket" revision="296ce49a261cf35a85c9958f47fdaab9cb2d0306" dest-branch="master"/>
+  <project name="libtransport-tls" path="packages/libtransport-tls" revision="0c79ea32d9671216235d5722ec428fe0b2afe864" dest-branch="master"/>
+  <project name="libvideo-decode" path="packages/libvideo-decode" revision="b9ad39addbcbff439bdd5cb7a40969060e3e3490" dest-branch="master"/>
+  <project name="libvideo-defs" path="packages/libvideo-defs" revision="c3c63dfbfbe690b8b03cc46953cb4cf99514371e" dest-branch="master"/>
+  <project name="libvideo-encode" path="packages/libvideo-encode" revision="1cac0867b55b37822dc064092704adcf8d94e918" dest-branch="master"/>
+  <project name="libvideo-metadata" path="packages/libvideo-metadata" revision="411d1fdd999bfb6827433bc793d5de63709d9c78" dest-branch="master"/>
+  <project name="libvideo-raw" path="packages/libvideo-raw" revision="6522f603a08cc72b8d3d52b8d9526c098b469d88" dest-branch="master"/>
+  <project name="libvideo-scale" path="packages/libvideo-scale" revision="80900bc272718b290443e04ae294620c62054f19" dest-branch="master"/>
+  <project name="libvideo-streaming" path="packages/libvideo-streaming" revision="86728bd754b82b778dbfbf9c40914d039349bdd6" dest-branch="master"/>
+  <project name="libyuv" path="packages/libyuv" revision="ad01373e6f7a57207977f38003a4dda1f8771a68" dest-branch="master"/>
   <project name="nasm" path="packages/nasm" revision="50a46206970715a0fe0b60c6587c8b1f77897fa4" dest-branch="master"/>
-  <project name="pdraw" path="packages/pdraw" revision="3c84da20d9628dba3500edd37a1ab10fc238e69e" dest-branch="master"/>
-  <project name="protobuf" path="packages/protobuf" revision="28acd6ab1a1a585686657c886d4ea9e18565a9b0" dest-branch="protobuf-3-branch"/>
+  <project name="nv-codec-headers" path="packages/nv-codec-headers" revision="69beff84cc21a441bf1a0c89f5ec3addfcd986c1" dest-branch="nv-codec-headers-12.1-parrot-branch"/>
+  <project name="openssl" path="packages/openssl" revision="d25826305737de53f8c7aa14eb3535dc1fedef3c" dest-branch="master"/>
+  <project name="pdraw" path="packages/pdraw" revision="a378724b47701e5a46f26feea7dc74ddb7eeb76e" dest-branch="master"/>
+  <project name="protobuf" path="packages/protobuf" revision="dcba9e8c6fe4e1807e48199d90f95c903458a1ad" dest-branch="protobuf-3-branch"/>
   <project name="protobuf-c" path="packages/protobuf-c" revision="1b45476e0eefe0cde2469107da51d1dd48bb6c8b" dest-branch="master"/>
   <project name="python-native" path="packages/python-native" revision="f4996e5317f339c056e2918c0ade5d3c7c69df91" dest-branch="master"/>
-  <project name="ulog" path="packages/ulog" revision="dce4648fb4f94a1cefb6f4edb2431497c51ab40e" dest-branch="master"/>
+  <project name="ulog" path="packages/ulog" revision="cb954757b98d43ad26b4ff8b11906286d2506d97" dest-branch="master"/>
 </manifest>
